@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Credentials, never commit these
+.env
+*.pem
+*.key
+secrets.json
+
+# OS
+.DS_Store
+
+# Note: backend/superkart_model.joblib is intentionally NOT ignored.
+# The container build requires it.
