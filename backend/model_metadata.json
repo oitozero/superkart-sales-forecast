@@ -1,0 +1,24 @@
+{
+  "model_name": "Tuned Random Forest",
+  "python_version": "3.12.13",
+  "sklearn_version": "1.6.1",
+  "xgboost_version": "2.1.4",
+  "numpy_version": "2.0.2",
+  "pandas_version": "2.2.2",
+  "expected_feature_columns": [
+    "Product_Weight",
+    "Product_Sugar_Content",
+    "Product_Allocated_Area",
+    "Product_MRP",
+    "Store_Size",
+    "Store_Location_City_Type",
+    "Store_Type",
+    "Product_Id_char",
+    "Product_Type_Category",
+    "Store_Age_Years"
+  ],
+  "data_snapshot_year": 2026,
+  "test_rmse": 250.26313364448646,
+  "test_mape_pct": 3.4639934190992725,
+  "test_r2": 0.9444784492052114
+}
